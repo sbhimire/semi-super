@@ -13,6 +13,8 @@ Refer to Google reserach team's paper (SimCLRv2 - Big Self-Supervised Models are
 
 The training notebooks for Stage 1, 2, and 3 can be found in the [notebooks](/notebooks) folder. The project report and the final presentation slides can be found in the [docs](/docs) folder.
 
+The deployed SemiSuperCV app predicts if a patient has pneumonia or not based on a chest X-ray. You can try the app at https://webapp-fa67s6dqfq-uc.a.run.app/. The first couple of runs might have high latency due to cold start time on Google Cloud Run. It should run fine after that.
+
 Resources
 
 - [Chest X-ray Dataset](https://data.mendeley.com/datasets/rscbjbr9sj/2?__hstc=25856994.691713ea611804e2a755290a622023a7.1641825897692.1641825897692.1641825897692.1&__hssc=25856994.1.1641825897692&__hsfp=1000557398)
