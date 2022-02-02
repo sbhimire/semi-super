@@ -1,6 +1,6 @@
 ## Semi/Self-Supervised Learning on a Pediatric Pneumonia Dataset
 
-**New!** The deployed SemiSuperCV app predicts if a patient has pneumonia or not based on a chest X-ray. You can try the app at https://webapp-yfe6osg5mq-uc.a.run.app. The first couple of runs might have high latency due to cold start time on Google Cloud Run. It should run fine after that.
+**News!** The deployed SemiSuperCV app predicts if a patient has pneumonia or not based on a chest X-ray. You can try the app at https://webapp-yfe6osg5mq-uc.a.run.app. The first couple of runs might have high latency due to cold start times on Google Cloud Run. It should run fine after that.
 
 ## About
 Fully supervised approaches need large, densely annotated datasets. Only hospitals that can afford to collect large annotated datasets can utilize these approaches to aid their physicians. The project goal is to utilize self-supervised and semi-supervised learning approaches to significantly reduce the need for fully labelled data. In this repo, you will find the project source code, along with training notebooks, and the final TensorFlow 2 saved model used to develop the web application for detecting Pediatric Pneumonia from chest X-rays.
