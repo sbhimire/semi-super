@@ -1,17 +1,17 @@
 ## Semi/Self-Supervised Learning on a Pediatric Pneumonia Dataset
 
-**News!** The deployed SemiSuperCV app predicts if a patient has pneumonia or not based on a chest X-ray. You can try the app at https://webapp-yfe6osg5mq-uc.a.run.app. The first couple of runs might have high latency due to cold start times on Google Cloud Run. It should run fine after that.
+**Live Deployment!** The deployed SemiSuperCV app predicts if a patient has pneumonia based on a chest X-ray. You can try the app at https://webapp-yfe6osg5mq-uc.a.run.app. The first couple of runs might have high latency due to cold start times on Google Cloud Run, but it should run fine after that
 
 ## About
-Fully supervised approaches need large, densely annotated datasets. Only hospitals that can afford to collect large annotated datasets can utilize these approaches to aid their physicians. The project goal is to utilize self-supervised and semi-supervised learning approaches to significantly reduce the need for fully labelled data. In this repo, you will find the project source code, along with training notebooks, and the final TensorFlow 2 saved model used to develop the web application for detecting Pediatric Pneumonia from chest X-rays.
+Fully supervised approaches need large, densely annotated datasets. Only hospitals that can afford to collect large annotated datasets can utilize these approaches to aid their physicians. The project goal is to utilize self-supervised and semi-supervised learning approaches to significantly reduce the need for fully labeled data. In this repo, you will find the project source code, training notebooks, and the final TensorFlow 2 saved model used to develop the web application for detecting pediatric pneumonia from chest X-rays.
 
-The semi/self-supervised learning framework used in the project comprises of three stages: 
+The semi-/self-supervised learning framework used in the project comprises three stages: 
 
 1. Self-supervised pretraining
 2. Supervised fine-tuning
 3. Knowledge distillation using unlabeled data
 
-Refer to Google reserach team's paper (SimCLRv2 - Big Self-Supervised Models are Strong Semi-Supervised Learners) for more details regarding the framework used.
+Refer to Google research team's paper “SimCLRv2 - Big Self-Supervised Models are Strong Semi-Supervised Learners” for more details regarding the framework used.
 
 The training notebooks for Stage 1, 2, and 3 can be found in the [notebooks](/notebooks) folder. The project report and the final presentation slides can be found in the [docs](/docs) folder.
 
